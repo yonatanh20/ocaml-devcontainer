@@ -1,14 +1,12 @@
-# OCaml DevContainer
+# A DevContainer for the Compiler Construction course
+## Taught by Mayer Goldberg in Ben-Gurion University 
 
-This repo can be used to launch an OCaml development environment using Docker and VSCode. It's based on the `ocaml/opam` Docker image, and uses the VSCode devcontainers feature. The environment comes with some commmon `opam` packages preinstalled.
+This repo can be used to launch a development environment catered for the course using Docker and VSCode.
 
 ## Features
 
-- Common IDE features (autocomplete, syntax highlighting, jump-to-definition, etc.) provided by the [OCaml Platform](https://github.com/ocamllabs/vscode-ocaml-platform) by [OCaml Labs](https://ocamllabs.io/).
-- Code formatting on save using [ocamlformat](https://github.com/ocaml-ppx/ocamlformat).
-- A fully functional Debian environment that can be accessed through the VSCode integrated terminal or using `docker exec...`.
-- Easy to adapt to your use case.
-
+- Common IDE features for assembly, Ocaml and Racket (Scheme) (autocomplete, syntax highlighting, jump-to-definition, etc.) provided by the [OCaml Platform](https://github.com/ocamllabs/vscode-ocaml-platform) by [OCaml Labs](https://ocamllabs.io/) and [Racket](https://racket-lang.org/).
+- 
 ## Requirements
 
 - [Docker](https://docs.docker.com/get-docker/)
@@ -22,7 +20,3 @@ This repo can be used to launch an OCaml development environment using Docker an
 3. Run the `Remote-Containers: Open Folder in Container` command.
 4. Select this folder.
 
-## Included Opam Packages
-
-- ocamlformat
-- ocaml-lsp-server
